@@ -20,47 +20,47 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: class-queerify.php:352
+#: class-queerify.php:349
 msgid "IMPORTANT: Javascript must be turned ON in your browser settings in order for this plugin to work!"
 msgstr ""
 
-#: class-queerify.php:353
+#: class-queerify.php:350
 msgid "Ratings & Reviews"
 msgstr ""
 
-#: class-queerify.php:354
+#: class-queerify.php:351
 msgid "If you like this plugin, please consider leaving a"
 msgstr ""
 
-#: class-queerify.php:355
+#: class-queerify.php:352
 msgid "rating"
 msgstr ""
 
-#: class-queerify.php:356
+#: class-queerify.php:353
 msgid "A huge thanks in advance!"
 msgstr ""
 
-#: class-queerify.php:357
+#: class-queerify.php:354
 msgid "Leave us a rating"
 msgstr ""
 
-#: class-queerify.php:358
+#: class-queerify.php:355
 msgid "About the plugin"
 msgstr ""
 
-#: class-queerify.php:359
+#: class-queerify.php:356
 msgid "Developed by:"
 msgstr ""
 
-#: class-queerify.php:360
+#: class-queerify.php:357
 msgid "Need some support?"
 msgstr ""
 
-#: class-queerify.php:361
+#: class-queerify.php:358
 msgid "Contact the developers via the Support Forum"
 msgstr ""
 
-#: class-queerify.php:362
+#: class-queerify.php:359
 msgid "Contact us"
 msgstr ""
 

@@ -22,33 +22,30 @@ class Queerify {
         add_action('admin_init', array($this, 'admin_init'));
         // Create the plugin menu
         add_action('admin_menu', array($this, 'admin_menu'));
-    }
 
-    // Get custom plugin options
-    public function get_plugin_option($optionGroup, $optionItem) {
+    }
+    
+    // Set option defaults
+    public function set_defaults($optionGroup, $key) {
         $options = get_option($optionGroup);
         $defaults = array(
-            $options['minification'] => 'off',
-            $options['flags'] => 'gay.png'
+            'minification' => 'off',
+            'flags' => 'gay',
         );
+        $options = wp_parse_args($options, $defaults);
 
-        if (isset($options[$optionItem])) {
-            return $options[$optionItem];
-        }
+        if(isset($options[$key]))
+            return $options[$key];
+
         return $defaults;
     }
     // Set reused variables
     public function set_reusables() {
-        $minification = $this->get_plugin_option('queerify_basic', 'minification');
-        $choosenFlag = $this->get_plugin_option('queerify_basic', 'flags');
+        $minification = $this->set_defaults('queerify_basic', 'minification');
+        $choosenFlag = $this->set_defaults('queerify_basic', 'flags');
         $relativeImgPath = plugin_dir_url( __FILE__ ) . 'resources/img/';
         // used print_r(get_current_screen()); under ID = $hook
         $hook = 'settings_page_queerify_settings';
-
-        $defaults = array(
-            $minification => 'off',
-            $choosenFlag => 'gay.png'
-        );
 
         $reusables = array(
             'minification' => $minification,

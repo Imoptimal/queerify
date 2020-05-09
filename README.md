@@ -14,3 +14,9 @@ Uninstall method modified.
 
 = 1.0.3 =
 Javascript code cleaned.
+
+= 1.0.4 =
+Modified Queerify class - to set default option values.
+
+= 1.0.5 =
+Bug fixes.
