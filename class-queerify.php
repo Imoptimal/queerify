@@ -29,7 +29,7 @@ class Queerify {
         $options = get_option($optionGroup);
         $defaults = array(
             $options['minification'] => 'off',
-            $options['flags'] => 'gay'
+            $options['flags'] => 'gay.png'
         );
 
         if (isset($options[$optionItem])) {
@@ -47,7 +47,7 @@ class Queerify {
 
         $defaults = array(
             $minification => 'off',
-            $choosenFlag => 'gay'
+            $choosenFlag => 'gay.png'
         );
 
         $reusables = array(

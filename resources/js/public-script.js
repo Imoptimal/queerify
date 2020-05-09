@@ -35,9 +35,9 @@ jQuery(function($) {
     }
     // plugin settings data
     var $phpData = phpData;
-    var flagPath = $phpData.imgPath + $phpData.flag + '.png';
+    var flagPath = $phpData.imgPath + $phpData.flag;
     var neonCatPath = $phpData.imgPath + 'neon-cat.png';
-    var backgroundImagePath = 'url(' + $phpData.imgPath + $phpData.flag + '.png)';
+    var backgroundImagePath = 'url(' + $phpData.imgPath + $phpData.flag + ')';
     $(flag).attr('src', flagPath);
     $(neonCat).attr('src', neonCatPath);
     if ($phpData.flag == 'intersex') { // flags without stripes look streched otherwise

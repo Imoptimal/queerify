@@ -57,6 +57,9 @@ Admin js modified - flag preview path adjusted.
 = 1.0.2 =
 Uninstall method modified.
 
+= 1.0.3 =
+Javascript code cleaned.
+
 == Copyright ==
 
 Queerify, Copyright 2020 Ivan Maljukanovic

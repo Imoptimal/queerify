@@ -5,7 +5,7 @@ Plugin URI: https://github.com/Imoptimal/queerify
 Description: Queerify your website by setting a fabulous loading screen that features a choosen flag from the LGBTIQ+ spectrum - representing your own gender identity. If you're a cat lover, you'll be glad to hear that neon cat also makes an appearance.
 Author: Ivan Maljukanović
 Author URI: https://imoptimal.com
-Version: 1.0.2
+Version: 1.0.3
 Author: imoptimal
 Author URI: https://www.imoptimal.com/
 Requires at least: 4.9.8
@@ -74,19 +74,19 @@ if (class_exists('Queerify')) {
             'name'    => esc_html__('Gender Identity', 'queerify'),
             'desc'    => esc_html__('Choose your gender identity, that will be reflected in coresponding flag within the loading screen (preview of the flag - to the right)', 'queerify'),
             'options' => array(
-                'gay' => esc_html__('Gay (default)', 'queerify'),
-                'lesbian' => esc_html__('Lesbian', 'queerify'),
-                'bisexual' => esc_html__('Bisexual', 'queerify' ),
-                'transgender' => esc_html__('Transgender', 'queerify'),
-                'intersex' => esc_html__('Intersex', 'queerify'),
-                'genderqueer' => esc_html__('Genderqueer', 'queerify'),
-                'nonbinary' => esc_html__('Non-binary', 'queerify'),
-                'agender' => esc_html__('Agender', 'queerify'),
-                'asexual' => esc_html__('Asexual', 'queerify'),
-                'genderfluid' => esc_html__('Genderfluid', 'queerify'),
-                'pansexual' => esc_html__('Pansexual', 'queerify'),
+                'gay.png' => esc_html__('Gay (default)', 'queerify'),
+                'lesbian.png' => esc_html__('Lesbian', 'queerify'),
+                'bisexual.png' => esc_html__('Bisexual', 'queerify' ),
+                'transgender.png' => esc_html__('Transgender', 'queerify'),
+                'intersex.png' => esc_html__('Intersex', 'queerify'),
+                'genderqueer.png' => esc_html__('Genderqueer', 'queerify'),
+                'nonbinary.png' => esc_html__('Non-binary', 'queerify'),
+                'agenderpng.png' => esc_html__('Agender', 'queerify'),
+                'asexual.png' => esc_html__('Asexual', 'queerify'),
+                'genderfluid.png' => esc_html__('Genderfluid', 'queerify'),
+                'pansexual.png' => esc_html__('Pansexual', 'queerify'),
             ),
-            'std' => 'gay',
+            'std' => 'gay.png',
         )
     );
     
