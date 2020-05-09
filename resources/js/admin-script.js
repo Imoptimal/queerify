@@ -52,7 +52,7 @@ jQuery(function($) {
     var basicOptionSection = document.getElementById('queerify_basic');
     var $imgPath = phpData.imgPath;
     var $flag = phpData.flag;
-    var fullPath = $imgPath + $flag;
+    var fullPath = $imgPath + $flag + '.png';
     var flagImg = document.createElement('img');
     flagImg.className = 'flag';
     basicOptionSection.appendChild(flagImg);

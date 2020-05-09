@@ -51,6 +51,9 @@ I personally use the plugin 'Smush' by WPMU DEV for lazy-loading of images. It's
 = 1.0.0 =
 Plugin released.
 
+= 1.0.1 =
+Admin js modified - flag preview path adjusted.
+
 == Copyright ==
 
 Queerify, Copyright 2020 Ivan Maljukanovic
