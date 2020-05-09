@@ -7,9 +7,9 @@ if (!defined('WP_UNINSTALL_PLUGIN')) {
 }
 
 if (current_user_can('delete_plugins')) { // restrict to admins
-        $option_settings = 'queerify_settings';
-        delete_option($option_settings);
+        $basic_settings = 'queerify_basic';
+        delete_option($basic_settings);
         // for site options in Multisite
-        delete_site_option($option_settings);   
+        delete_site_option($basic_settings);   
 
 } ?>
