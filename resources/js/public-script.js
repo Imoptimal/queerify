@@ -36,7 +36,7 @@ jQuery(function($) {
     // plugin settings data
     var $phpData = phpData;
     var flagName = $phpData.flag;
-    var flagPath = $phpData.imgPath + flagName;
+    var flagPath = $phpData.imgPath + flagName + '.png';
     var neonCatPath = $phpData.imgPath + 'neon-cat.png';
     var backgroundImagePath = 'url(' + flagPath + '.png)';
     $(flag).attr('src', flagPath);
