@@ -38,7 +38,7 @@ jQuery(function($) {
     var flagName = $phpData.flag;
     var flagPath = $phpData.imgPath + flagName + '.png';
     var neonCatPath = $phpData.imgPath + 'neon-cat.png';
-    var backgroundImagePath = 'url(' + flagPath + '.png)';
+    var backgroundImagePath = 'url(' + flagPath + ')';
     $(flag).attr('src', flagPath);
     $(neonCat).attr('src', neonCatPath);
     if ($phpData.flag == 'intersex') { // flags without stripes look streched otherwise

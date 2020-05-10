@@ -53,7 +53,6 @@ jQuery(function($) {
     var $imgPath = phpData.imgPath;
     var $flag = phpData.flag;
     var fullPath = $imgPath + $flag + '.png';
-    console.log(fullPath);
     var flagImg = document.createElement('img');
     flagImg.className = 'flag';
     basicOptionSection.appendChild(flagImg);

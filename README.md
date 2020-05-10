@@ -20,3 +20,6 @@ Modified Queerify class - to set default option values.
 
 = 1.0.5 =
 Bug fixes.
+
+= 1.0.6 =
+Reverting to previous version of js.

@@ -5,7 +5,7 @@ Plugin URI: https://github.com/Imoptimal/queerify
 Description: Queerify your website by setting a fabulous loading screen that features a choosen flag from the LGBTIQ+ spectrum - representing your own gender identity. If you're a cat lover, you'll be glad to hear that neon cat also makes an appearance.
 Author: Ivan Maljukanović
 Author URI: https://imoptimal.com
-Version: 1.0.5
+Version: 1.0.6
 Author: imoptimal
 Author URI: https://www.imoptimal.com/
 Requires at least: 4.9.8
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
 
 // Define global constants
 if (!defined('QUEERIFY_VERSION')) {
-    define('QUEERIFY_VERSION', '1.0.5');
+    define('QUEERIFY_VERSION', '1.0.6');
 }
 
 if (!defined('QUEERIFY_NAME')) {
