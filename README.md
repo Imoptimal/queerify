@@ -23,3 +23,6 @@ Bug fixes.
 
 = 1.0.6 =
 Reverting to previous version of js.
+
+= 1.0.7 =
+Added the "I'm a star!" option to the plugin.

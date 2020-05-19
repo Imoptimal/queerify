@@ -68,11 +68,11 @@
 
 /* Responsive design */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
     #queerify_basic .flag {
         position: absolute;
         right: 10px;
-        top: 10px;
+        top: 0;
         width: 100px;
         height: 67px;
     }

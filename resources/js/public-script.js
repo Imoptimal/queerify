@@ -43,6 +43,8 @@ jQuery(function($) {
     $(neonCat).attr('src', neonCatPath);
     if ($phpData.flag == 'intersex') { // flags without stripes look streched otherwise
         $(queerifyContainer).css('background-color', '#ffd800');
+    } else if ($phpData.flag == 'stars') {
+        $(queerifyContainer).css('background-image', 'none');
     } else {
         $(queerifyContainer).css('background-image', backgroundImagePath);
     }

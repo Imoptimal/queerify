@@ -69,6 +69,9 @@ Bug fixes.
 = 1.0.6 =
 Reverting to previous version of js.
 
+= 1.0.7 =
+Added the "I'm a star!" option to the plugin.
+
 == Copyright ==
 
 Queerify, Copyright 2020 Ivan Maljukanovic
@@ -79,6 +82,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/gpl-3.0.en.h
 
 == Resources ==
 * all of the flags (PNG image files) © 2020 Ivan Maljukanović, CC0 - made by me, from the corresponding SVG image files available at https://en.wikipedia.org/wiki/LGBT_symbols#Flags (public domain or CC0)
+* stars.png © freepngimg.com, CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/) - free for non-commercial use, not modified
 * neon-cat.png © freepngimg.com, CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/) - free for non-commercial use, not modified
 * imoptimal-logo-white.png © 2018 Ivan Maljukanović, CC0 - made by me, not available online apart from the plugins directory /resources/img, and my personal website @ https://imoptimal.com (used as an asset)
 * banner-772x250.png © 2020 Ivan Maljukanović, CC0 - made by me, not available online apart from the plugins official wordpress.org repository (used as an asset)

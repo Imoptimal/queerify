@@ -127,3 +127,7 @@ msgstr ""
 #: queerify.php:87
 msgid "Pansexual"
 msgstr ""
+
+#: queerify.php:88
+msgid "I'm a star!"
+msgstr ""
