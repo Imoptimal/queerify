@@ -3,7 +3,7 @@ WordPress plugin that is used to enable loading screen progress bar in form of a
 
 Available @ [wordpress.org/plugins/queerify](https://wordpress.org/plugins/queerify/)
 
-Perfectly compatible with my official wordpress.org theme Queer available @ [wordpress.org/themes/queer](https://wordpress.org/themes/queer/)
+Perfectly compatible with my official wordpress.org theme 'Queer' available @ [wordpress.org/themes/queer](https://wordpress.org/themes/queer/)
 
 PHP OOP coding standard based on https://github.com/ahmadawais/WP-OOP-Settings-API
 
